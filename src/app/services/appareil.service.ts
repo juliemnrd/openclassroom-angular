@@ -51,6 +51,11 @@ export class AppareilService {
       this.appareils[i].status = 'éteint';
       this.emitAppareilSubject();
   }
+
+
+
+  
+  // FORMS TEMPLATE
     
     findAppareilById(id: number){
       const appareil = this.appareils.find((app)=>{

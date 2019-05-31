@@ -1,3 +1,4 @@
+// FORMS TEMPLATE
 import { Component, OnInit } from '@angular/core';
 import {NgForm} from '@angular/forms';
 import { AppareilService } from '../services/appareil.service';
